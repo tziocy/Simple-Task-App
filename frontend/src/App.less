@@ -1,0 +1,226 @@
+@import '~antd/dist/antd.less';
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .logo {
+    height: 48px;
+    margin: 16px;
+    text-align: center;
+  }
+
+  .logo>img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .headerMenu-IconBurger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 48px 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .headerMenu-Icon {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .headerMenu-Icon:hover {
+    color: #1890ff;
+  }
+
+  .right {
+    float: right;
+    height: 100%;
+    margin-left: auto;
+    overflow: hidden;
+  }
+
+  .ant-menu-sub .ant-menu-item {
+    padding-left: 32px!important;
+  }
+
+  .page-header-container {
+    background-color: rgba(245, 245, 245, 0.4);
+    padding: 8px;
+    margin-bottom: 32px;
+  }
+
+  .page-header {
+    border-bottom: '1px solid rgb(235, 237, 240)';
+    padding: 0;
+    padding-bottom: 24;
+    margin-bottom: 24;
+  }
+
+  .site-page-header-ghost-wrapper {
+    background-color: #fafafa;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+
+
+  .actions-column {
+    width: 230px;
+  }
+
+  .mr-8 {
+    margin-right: 8px;
+  }
+
+  /**************************** LOGIN PAGE ****************************/
+  #login-card {
+    -webkit-box-shadow: -3px -3px 10px 5px rgba(184,184,184,0.75);
+    -moz-box-shadow: -3px -3px 10px 5px rgba(184,184,184,0.75);
+    box-shadow: -3px -3px 10px 5px rgba(184,184,184,0.75);
+  }
+
+  #loginPageWrapper {
+    min-height: 100vh;
+    //background-image: url(/images/background.jpg);
+    background-repeat: repeat;
+  }
+
+  #loginPageWrapper #logo {
+    max-height: 150px;
+  }
+
+  #loginPageWrapper #loginText {
+    color: #001529;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  #loginPageWrapper #loginError {
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  #loginPageWrapper #loginButton {
+    float: right;
+  }
+
+  #loginPageWrapper .loginInputIcon {
+    color: rgba(0, 0, 0, 0.25);
+  }
+
+  /**************************** MAIN PAGE ****************************/
+  #mainPageLayout {
+    min-height: 100vh;
+  }
+
+  #mainPageLayout #topMenu {
+    height: 100%;
+    border-right: 0;
+  }
+
+  #mainPageLayout #topHeader {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  #mainPageLayout #topHeaderHotels {
+    width: 200px;
+    margin-left: 36px;
+    margin-right: 8px;
+  }
+
+  #mainPageLayout #topHeaderRightElements {
+    margin-right: 16px;
+  }
+
+  #mainPageLayout #mainPageContent {
+    background: #fff;
+    padding: 24px;
+    margin: 16px 16px;
+    min-height: 280px;
+  }
+
+  /**************************** Component: AvatarDropdown ****************************/
+  .userAvatarDropdown {
+    background-color: orange!important;
+    vertical-align: middle!important;
+  }
+  .userAvatarDropdownText {
+    color: black;
+    margin-left: 8px;
+  }
+
+  .userAvatarDropdownButton {
+    all: unset;
+  }
+
+  /**************************** Component: LanguagesDropdown ****************************/
+  #languagesDropdownButton {
+    all: unset;
+    margin-left: 16px;
+  }
+
+  #languagesDropdownIcon {
+    font-size: 20px;
+    color: black;
+    vertical-align: middle;
+  }
+
+  #languagesDropdownText {
+    color: black;
+    margin-left: 8px;
+  }
+
+  /**************************** Component: EditableTagGroup ****************************/
+
+  .site-tag-plus {
+    background: #fff !important;
+    border-style: dashed !important;
+  }
+  .edit-tag {
+    user-select: none !important;
+  }
+  .tag-input {
+    width: 78px !important;
+    margin-right: 8px !important;
+    vertical-align: top !important;
+    border: 0px !important;
+  }
+
+
+  .ant-table-cell div.ant-typography, .ant-table-cell .ant-typography p {
+    margin-bottom: 0px;
+  }
+
+  /**************************** Component: EditableTable ****************************/
+
+  .editable-cell {
+    position: relative;
+  }
+
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+
+  .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+  }
+
+  [data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+  }
